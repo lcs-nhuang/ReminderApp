@@ -8,10 +8,15 @@
 import SwiftUI
 
 struct CourseView: View {
+    
+    @Binding var toDoThings : [ToDoThing]
+    
     var body: some View {
         NavigationView {
             List {
-                Text("Do my homework")
+                List(toDoThings) { currentTing in
+                    Text(currentTing.name)
+                }
             }
             .navigationTitle("To Do")
         
@@ -33,6 +38,6 @@ struct CourseView: View {
 
 struct CourseView_Previews: PreviewProvider {
     static var previews: some View {
-        CourseView()
+        CourseView(toDoThings: .constant(exampleThing))
     }
 }

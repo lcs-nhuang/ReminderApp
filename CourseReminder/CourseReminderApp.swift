@@ -10,12 +10,12 @@ import SwiftUI
 @main
 struct CourseReminderApp: App {
     
-    
+    @State var toDoThings: [ToDoThing] = []
     
     var body: some Scene {
         
         WindowGroup {
-            CourseView()
+            CourseView(toDoThings: .constant(exampleThing))
         }
     }
 }

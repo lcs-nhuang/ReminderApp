@@ -13,3 +13,5 @@ struct ToDoThing : Identifiable {
     let name: String
     
 }
+
+let exampleThing = [ ToDoThing(id: 1, name: "Finish my home work") ]
