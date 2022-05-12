@@ -9,8 +9,10 @@ import SwiftUI
 
 @main
 struct CourseReminderApp: App {
+    
+    
+    
     var body: some Scene {
-        
         
         WindowGroup {
             CourseView()

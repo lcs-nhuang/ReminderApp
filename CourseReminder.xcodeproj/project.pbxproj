@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB70EE89282D64EC008BCAE3 /* ToDoThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70EE88282D64EC008BCAE3 /* ToDoThing.swift */; };
 		BBDC7238282C1F7D0075D60A /* CourseReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC7237282C1F7D0075D60A /* CourseReminderApp.swift */; };
 		BBDC723C282C1F820075D60A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDC723B282C1F820075D60A /* Assets.xcassets */; };
 		BBDC723F282C1F820075D60A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDC723E282C1F820075D60A /* Preview Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB70EE88282D64EC008BCAE3 /* ToDoThing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoThing.swift; sourceTree = "<group>"; };
 		BBDC7234282C1F7D0075D60A /* CourseReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDC7237282C1F7D0075D60A /* CourseReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseReminderApp.swift; sourceTree = "<group>"; };
 		BBDC723B282C1F820075D60A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		BBDC7248282C23060075D60A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BB70EE88282D64EC008BCAE3 /* ToDoThing.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB70EE89282D64EC008BCAE3 /* ToDoThing.swift in Sources */,
 				BBDC7238282C1F7D0075D60A /* CourseReminderApp.swift in Sources */,
 				BBDC7246282C20270075D60A /* CourseView.swift in Sources */,
 			);
