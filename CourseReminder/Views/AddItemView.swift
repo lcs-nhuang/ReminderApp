@@ -21,6 +21,7 @@ struct AddItemView: View {
                 TextField("Enter New Thing", text: $newItemName)
                     .padding()
                 
+                Spacer()
             }
             .navigationTitle("Add Item")
             .toolbar {

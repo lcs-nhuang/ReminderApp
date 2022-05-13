@@ -32,7 +32,7 @@ struct CourseView: View {
             List {
                 ForEach(filteredListOfThings) { currentThing in
                     Text(currentThing.name)
-                }
+                }.onMove(perform: self.move )
                 .onDelete(perform: self.delete)
 
             }
@@ -59,6 +59,10 @@ struct CourseView: View {
             .navigationBarItems(trailing: EditButton())
             
         }
+    }
+    
+    func move(from source: IndexSet, to destination: Int ) {
+        toDoThings.move(fromOffsets: source, toOffset: destination)
     }
     
     func delete(at offsets : IndexSet) {
