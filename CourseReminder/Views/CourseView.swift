@@ -15,16 +15,28 @@ struct CourseView: View {
     
     @State var searchText = ""
     
+    var filteredListOfThings: [ToDoThing] {
+        if searchText.isEmpty {
+            return toDoThings
+        } else {
+            return toDoThings
+                .filter { currentThing in
+                    return currentThing.name.lowercased().contains(searchText.lowercased())
+                }
+        }
+    }
+    
     var body: some View {
         NavigationView {
             
             List {
-                ForEach(toDoThings) { currentThing in
+                ForEach(filteredListOfThings) { currentThing in
                     Text(currentThing.name)
                 }
                 .onDelete(perform: self.delete)
 
             }
+            .searchable(text: $searchText)
             .navigationTitle("To Do")
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {
