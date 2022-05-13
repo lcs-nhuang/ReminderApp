@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BB70EE89282D64EC008BCAE3 /* ToDoThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70EE88282D64EC008BCAE3 /* ToDoThing.swift */; };
+		BB70EE8D282D6B05008BCAE3 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70EE8C282D6B05008BCAE3 /* AddItemView.swift */; };
 		BBDC7238282C1F7D0075D60A /* CourseReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC7237282C1F7D0075D60A /* CourseReminderApp.swift */; };
 		BBDC723C282C1F820075D60A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDC723B282C1F820075D60A /* Assets.xcassets */; };
 		BBDC723F282C1F820075D60A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDC723E282C1F820075D60A /* Preview Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		BB70EE88282D64EC008BCAE3 /* ToDoThing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoThing.swift; sourceTree = "<group>"; };
+		BB70EE8C282D6B05008BCAE3 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 		BBDC7234282C1F7D0075D60A /* CourseReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDC7237282C1F7D0075D60A /* CourseReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseReminderApp.swift; sourceTree = "<group>"; };
 		BBDC723B282C1F820075D60A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,7 +57,6 @@
 			children = (
 				BBDC7237282C1F7D0075D60A /* CourseReminderApp.swift */,
 				BBDC7247282C20F40075D60A /* Views */,
-				BBDC7245282C20270075D60A /* CourseView.swift */,
 				BBDC7248282C23060075D60A /* Model */,
 				BBDC723B282C1F820075D60A /* Assets.xcassets */,
 				BBDC723D282C1F820075D60A /* Preview Content */,
@@ -74,6 +75,8 @@
 		BBDC7247282C20F40075D60A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BBDC7245282C20270075D60A /* CourseView.swift */,
+				BB70EE8C282D6B05008BCAE3 /* AddItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				BB70EE89282D64EC008BCAE3 /* ToDoThing.swift in Sources */,
 				BBDC7238282C1F7D0075D60A /* CourseReminderApp.swift in Sources */,
 				BBDC7246282C20270075D60A /* CourseView.swift in Sources */,
+				BB70EE8D282D6B05008BCAE3 /* AddItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

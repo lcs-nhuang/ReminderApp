@@ -15,7 +15,7 @@ struct CourseReminderApp: App {
     var body: some Scene {
         
         WindowGroup {
-            CourseView(toDoThings: .constant(exampleThing))
+            CourseView(toDoThings: $toDoThings)
         }
     }
 }
